@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat", verdana;
+}
+ul{
+		list-style-type: none;
+		float: right;
+		margin-top: 70px;
+		font-family: Verdana;
+		font-size: 20px;
+	}
+
+	ul li{
+		display: inline-block;
+	}
+
+	ul li a{
+		text-decoration:none;
+		color: rgba(223, 190, 106,0.7);
+		padding: 6px 25px;
+		border: 1px solid transparent;
+	
+	}
+
+	ul li a:hover{
+		background-color: rgba(223, 190, 106,0.7);
+		color: white;
+		transition:all 0.6s ease-in-out;
+	}
+.contact-section{
+	
+	background-size: cover;
+	padding: 40px 0;
+	margin-top: -30px;
+}
+
+.contact-section h1 {
+	margin-left: 50px;
+	color:rgba(225, 195, 110,0.9);
+	font-family: verdana;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 35px;
+	margin-top: 30px;
+	}
+
+.border{
+	width: 150px;
+	height: 10px;
+	background: rgba(220, 180, 103,0.6);
+	margin: 40px auto;
+	margin-left: 60px;
+}
+
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+}
+
+.contact-form-text:focus{
+	box-shadow: 0 0 10px 4px rgba(223, 190, 106,0.7);
+}
+
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+
+}
+
+
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background: linear-gradient(90deg,rgba(223,190,106,0.8), rgba(152,110,60,1), rgba(152,110,60,1),rgba(223,190,106,0.8));
+
+	color: rgba(223, 190, 106,0.7);
+	padding: 12px 50px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition:0.7s ease;
+
+}
+
+.contact-form-btn:hover{
+	color: white;
+	border: 1px solid rgba(223, 190, 106,0);
+}
+
+
+.logo{
+	margin:0;
+    padding: -20;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: verdana;
+    min-height: 100vh;
+    margin-top: -260px;
+
+}
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+
+.container .box{
+	text-align: center;
+
+}
+.container .box .icon .fa{
+	font-size: 50px;
+	cursor: pointer;
+
+}
+.container .box .icon h3,
+.container .box .icon h4{
+	position: relative;
+	overflow: hidden;
+	font-weight: 400px;
+	margin: 0;
+	padding: 2px 5px;
+	font-size: 24px;
+	transition-delay: 0.3333s;
+	color: transparent;
+}
+
+.container .box .fa:hover ~ h3,
+.container .box .fa:hover ~ h4
+{
+	color: #000;
+
+}
+
+.container .box .icon h4{
+	font-weight: 600;
+	margin: 5px 0;
+	font-style: 30px;
+}
+
+.container .box .icon h3:before,
+.container .box .icon h4:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width:100%;
+	height: 100%;
+	background:rgba(223, 190, 106,1);
+	transition: 1s;
+}
+
+.container .box .icon h4:before{
+	left: initial;
+	right: 100%;
+	background: #9c27b0;
+
+}
+
+.container .box .fa:hover ~ h3:before,
+.container .box .fa:hover ~ h4:before
+
+{
+	right: -100%;
+	left: -100%;
+
+}
+
+
+
+
+
+
+
+
+
+
