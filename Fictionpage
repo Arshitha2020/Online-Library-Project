@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>About book-Fiction</title>
+		<style type="text/css">
+			body{
+				background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+		}
+			*{
+				box-sizing: border-box;
+			}
+			body{
+				background-color: black;
+			}
+			.gallery{
+				border:1px solid rgba(223, 190, 106,0.7);
+			}
+			.gallery img{
+				width: 100%;
+				height: auto;
+				margin: 1px;
+				border: 1px solid rgba(223, 190, 106,0.7);
+				}
+				.des{
+					padding: 15px;
+					text-align: center;
+				}
+				.responsive{
+					padding: 0 6px;
+					float: left;
+					width: 25%;
+				}
+				.des{
+					color: white;
+					font-family: Verdana;
+				}
+				h1{
+					color: white;
+				}
+
+	@media only screen and (max-width:500px ){
+		.responsive{
+			width: 100%;
+			
+		}
+	}	
+	ul{
+		list-style-type: none;
+		float: right;
+		margin-top: 15px;
+		font-family: Verdana;
+	}
+
+	ul li{
+		display: inline-block;
+	}
+
+	ul li a{
+		text-decoration:none;
+		color: rgba(223, 190, 106,0.7);
+		padding: 6px 25px;
+		border: 1px solid transparent;
+	
+	}
+
+	ul li a:hover{
+		background-color: rgba(223, 190, 106,0.7);
+		color: white;
+		transition:all 0.6s ease-in-out;
+	}
+
+	ul li.active a{
+		background-color:rgba(223, 190, 106,0.7) ;
+		color: white;
+
+}
+	}
+
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<div >
+				<ul>
+					<li class="active"><a href="#">Fiction</a></li>
+					<li><a href="nonfiction.html" target="_self">Non-Fiction</a></li>
+					<li><a href="poetry.html" target="_self">Poetry</a></li>
+					<li><a href="scifi.html" target="_self">Sci-fi</a></li>
+					<li><a href="header.html"target="_self">Home</a></li>
+				</ul>
+			</div>
+		</header>
+		<h1>Books</h1>
+		<div class="responsive">
+			<div class="gallery">
+				<a href="C:\Users\HP\Desktop\web\_downloadfiles_wallpapers_1920_1080_owl_forest_12045.jpg" target="_blank"><img src="https://www.coml13.com/wp-content/uploads/2017/01/20170116_095750.jpg" width="300" height="200"></a>
+				<div class="des"><h2>The Palace of Illusions</h2> A Novel is a 2008 novel by award-winning novelist and poet Chitra Banerjee Divakaruni. It was released by Picador. The novel is a rendition of the Hindu epic Mahabharata as told from Draupadi's viewpoint, namely, that of a woman living in a patriarchal world. Wikipedia
+Originally published: 1 January 2008
+Author: Chitra Banerjee Divakaruni
+Original language: English
+Genres: Novel, Historical Fiction  </div>
+			</div>
+		</div>
+
+
+				<div class="responsive">
+			<div class="gallery">
+				<a href="C:\Users\HP\Desktop\web\_downloadfiles_wallpapers_1920_1080_owl_forest_12045.jpg" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/91fJxgs69QL.jpg"  width="300" height="200"></a>
+				<div class="des"><h2>Norwegian Wood</h2>It is a 1987 novel by Japanese author Haruki Murakami. The novel is a nostalgic story of loss and burgeoning sexuality. It is told from the first-person perspective of Toru Watanabe, who looks back on his days as a college student living in Tokyo. Wikipedia
+Originally published: 1987
+Author: Haruki Murakami
+Original title: Noruwei no Mori; ノルウェイの森
+Pages: 296 (US Paperback); 400 (UK Paperback)
+Characters: Naoko, Midori, Kizuki, Toru Watanabe, Hatsumi, MORE
+Genres: Novel, Fiction, Bildungsroman, Romance novel</div>
+			</div>
+	</div>
+
+
+				<div class="responsive">
+			<div class="gallery">
+				<a href="C:\Users\HP\Desktop\web\_downloadfiles_wallpapers_1920_1080_owl_forest_12045.jpg" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg"  width="300" height="200"></a>
+				<div class="des"><h2>Harry Potter and the Philosopher's Stone</h2> It is a fantasy novel written by British author J. K. Rowling.
+Originally published: 26 June 1997
+Author: J. K. Rowling
+Original language: English
+Characters: Harry Potter, Hermione Granger, Lord Voldemort, MORE
+Genres: Novel, Fantasy, Children's literature, Fantasy Fiction, Adventure fiction, High fantasy, Contemporary fantasy
+Awards: Nestlé Smarties Book Prize for 9 to 11 years</div>
+			</div>
+		</div>
+
+
+
+		<div class="responsive">
+			<div class="gallery">
+				<a href="C:\Users\HP\Desktop\web\_downloadfiles_wallpapers_1920_1080_owl_forest_12045.jpg" target="_blank"><img src="https://miro.medium.com/max/701/1*X0wb9BQdrBXQ8-17VcVkIQ.jpeg"  width="300" height="200"></a>
+				<div class="des"><h2>Animal Farm</h2> It is an allegorical novella by George Orwell, first published in England on 17 August 1945. The book tells the story of a group of farm animals who rebel against their human farmer, hoping to create a society where the animals can be equal, free, and happy. Wikipedia
+Author: George Orwell
+Original title: Animal Farm: A Fairy Story
+Pages: 112 (UK paperback edition)
+Page count: 112 (UK paperback edition)
+Characters: Napoleon, Snowball, Old Major, Squealer, Boxer</div>
+			</div>
+		</div>
+	<div class="responsive">
+			<div class="gallery">
+				<a href="C:\Users\HP\Desktop\web\_downloadfiles_wallpapers_1920_1080_owl_forest_12045.jpg" target="_blank"><img src="https://4.bp.blogspot.com/-njZ2l9L-rVg/XG1F8JuRXTI/AAAAAAAAL0k/FRuP3cXRKp8iqgv2XxJH3bFSdxb4H_bgQCLcBGAs/w1200-h630-p-k-no-nu/IMG_20190220_131925.jpg"  width="300" height="200"></a>
+				<div class="des"><h2>The Forest of Enchantments</h2>
+by Chitra Banerjee Divakaruni 
+The Ramayana, one of the worlds greatest epics, is also a tragic love story. In this brilliant retelling, Chitra Banerjee Divakaruni places Sita at the centre of the novel: this is Sitas version.
+
+The Forest of Enchantments is also a very human story of some of the other women in the epic, often misunderstood and relegated to the margins: Kaikeyi, Surpanakha, Mandodari. </div>
+			</div>
+		</div>
+
+
+	</body>
+	</html>
