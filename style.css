@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	/*background-image: url(‪https://i.pinimg.com/474x/3b/f4/2d/3bf42dc7ba5b54c8c7edfc9583aacc9f.jpg);
+	/*background-color: black;linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 45px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration:none;
+	color: rgba(223, 190, 106,0.7);
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.7s ease;
+}
+
+ul li a:hover{
+	background-color: rgba(223, 190, 106,0.7);
+	color: white;
+}
+
+ul li.active a{
+	background-color:rgba(223, 190, 106,0.7) ;
+	color: white;
+}
+
+.title{
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	background-image: url(‪https://i.pinimg.com/474x/3b/f4/2d/3bf42dc7ba5b54c8c7edfc9583aacc9f.jpg);
+}
+
+.button{
+	top: 65%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	justify-content: center;
+	background-color: #231f20;
+	margin-top: 40px;
+
+}
+.button .btn{
+	background: transparent;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 10px;
+	letter-spacing: 5px;
+	color: rgba(223, 190, 106,0.7);
+	border-radius: 0;
+	margin-top: 30px;
+	
+	background: linear-gradient(270deg,rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+
+}
+
+.btn{
+	border: 1px solid rgba(223, 190, 106,0.3);
+	padding: 10px 40px;
+	
+	text-decoration:none;
+	transition:all 0.6s ease-in-out;
+}
+
+.btn:hover{
+	
+	color: white;
+	border: 1px solid rgba(223, 190, 106,0);
+
+}
+.title p{
+	text-align: center;
+	font-size: 80px;
+	font-family: Verdana;
+	color: rgba(223, 190, 106,0.7);
+	font-weight: lighter;
+}
+.bib{
+	animation: colorchange 1s infinite;
+
+
+}
+@keyframes colorchange{
+	0%{color: red}
+	25%{color: #bf55ec;}
+	50%{color: white}
+	100%{color: #bf55ec}
+}
